@@ -19,7 +19,7 @@ public class iAdsMainSDKManager {
         var interManager: [AdsName : iAdsCoreSDK_IntertitialProtocol.Type] = [:]
         var openManager: [AdsName : iAdsCoreSDK_OpenProtocol.Type] = [:]
         var rewardedManager: [AdsName : iAdsCoreSDK_RewardedProtocol.Type] = [:]
-        var bannerManager: [AdsName : iAdsCoreSDK_BannerProtocol.Type] = [:]
+        let bannerManager: [AdsName : iAdsCoreSDK_BannerProtocol.Type] = [:]
         var nativeManager: [AdsName : iAdsCoreSDK_NativeProtocol.Type] = [:]
         
         #if canImport(iAdsAdmobSDK)
@@ -100,6 +100,14 @@ public class iAdsMainSDKManager {
                                             nativeMaxView: nativeMaxView,
                                             screenName: screenName,
                                             completion: completion)
+    }
+    
+    public func setIsCanShowAdsOpenResume(_ isCanShow: Bool) {
+        iAdsSDKManager.shared.isCanShowAdsResume = isCanShow
+    }
+    
+    public func setIsCanShowAds(_ isCanShow: Bool) {
+        iAdsSDKManager.shared.isCanShowAds = isCanShow
     }
     
     public func isCanShowAdsFull(screenName: String) -> Bool {
