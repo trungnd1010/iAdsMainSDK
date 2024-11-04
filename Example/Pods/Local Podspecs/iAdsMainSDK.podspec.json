@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "summary": "A short description of iAdsMainSDK.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Trung Nguyễn/iAdsMainSDK",
+  "homepage": "https://github.com/trungnd1010/iAdsMainSDK",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Trung Nguyễn": "trungnd@ikameglobal.com"
+    "Trung Nguyen": "trungnd@ikameglobal.com"
   },
   "source": {
-    "git": "https://github.com/Trung Nguyễn/iAdsMainSDK.git",
+    "git": "hhttps://github.com/trungnd1010/iAdsMainSDK.git",
     "tag": "0.1.0"
   },
   "platforms": {
