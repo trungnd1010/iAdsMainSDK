@@ -1,0 +1,7 @@
+use_frameworks!
+target 'iAdsMainSDK_Tests' do
+  pod 'iAdsMainSDK', :path => '../'
+  pod 'iAdsMainSDK/AdsAdmob', :path => '../'
+  pod 'iAdsMainSDK/AdsMax', :path => '../'
+  
+end

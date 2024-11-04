@@ -1,0 +1,2932 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iAdsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "iAdsCoreSDK",
+        "printedName": "iAdsCoreSDK",
+        "declKind": "Import",
+        "moduleName": "iAdsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "iAdsSDK_IntertitialManager",
+        "printedName": "iAdsSDK_IntertitialManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "iAdsSDK_IntertitialManager",
+                "printedName": "iAdsSDK.iAdsSDK_IntertitialManager",
+                "usr": "s:7iAdsSDK01iaB19_IntertitialManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7iAdsSDK01iaB19_IntertitialManagerC6sharedACvpZ",
+            "mangledName": "$s7iAdsSDK01iaB19_IntertitialManagerC6sharedACvpZ",
+            "moduleName": "iAdsSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "iAdsSDK_IntertitialManager",
+                    "printedName": "iAdsSDK.iAdsSDK_IntertitialManager",
+                    "usr": "s:7iAdsSDK01iaB19_IntertitialManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7iAdsSDK01iaB19_IntertitialManagerC6sharedACvgZ",
+                "mangledName": "$s7iAdsSDK01iaB19_IntertitialManagerC6sharedACvgZ",
+                "moduleName": "iAdsSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "showAds",
+            "printedName": "showAds(vc:placement:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7iAdsSDK01iaB19_IntertitialManagerC04showA02vc9placement10completionySo16UIViewControllerC_SSys6ResultOyyts5Error_pGctF",
+            "mangledName": "$s7iAdsSDK01iaB19_IntertitialManagerC04showA02vc9placement10completionySo16UIViewControllerC_SSys6ResultOyyts5Error_pGctF",
+            "moduleName": "iAdsSDK",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "preloadAds",
+            "printedName": "preloadAds(screenName:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Result<(), any Swift.Error>) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "Swift.Result<(), any Swift.Error>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:s6ResultO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7iAdsSDK01iaB19_IntertitialManagerC07preloadA010screenName10completionySSSg_ys6ResultOyyts5Error_pGcSgtF",
+            "mangledName": "$s7iAdsSDK01iaB19_IntertitialManagerC07preloadA010screenName10completionySSSg_ys6ResultOyyts5Error_pGcSgtF",
+            "moduleName": "iAdsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7iAdsSDK01iaB19_IntertitialManagerC",
+        "mangledName": "$s7iAdsSDK01iaB19_IntertitialManagerC",
+        "moduleName": "iAdsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "iAdsCoreSDK",
+        "printedName": "iAdsCoreSDK",
+        "declKind": "Import",
+        "moduleName": "iAdsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iAdsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "iAdsCoreSDK",
+        "printedName": "iAdsCoreSDK",
+        "declKind": "Import",
+        "moduleName": "iAdsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iAdsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iAdsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iAdsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "iAdsCoreSDK",
+        "printedName": "iAdsCoreSDK",
+        "declKind": "Import",
+        "moduleName": "iAdsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "iAdsSDK_OpenManager",
+        "printedName": "iAdsSDK_OpenManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "iAdsSDK_OpenManager",
+                "printedName": "iAdsSDK.iAdsSDK_OpenManager",
+                "usr": "s:7iAdsSDK01iaB12_OpenManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7iAdsSDK01iaB12_OpenManagerC6sharedACvpZ",
+            "mangledName": "$s7iAdsSDK01iaB12_OpenManagerC6sharedACvpZ",
+            "moduleName": "iAdsSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "iAdsSDK_OpenManager",
+                    "printedName": "iAdsSDK.iAdsSDK_OpenManager",
+                    "usr": "s:7iAdsSDK01iaB12_OpenManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7iAdsSDK01iaB12_OpenManagerC6sharedACvgZ",
+                "mangledName": "$s7iAdsSDK01iaB12_OpenManagerC6sharedACvgZ",
+                "moduleName": "iAdsSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "showAds",
+            "printedName": "showAds(vc:containerView:s:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7iAdsSDK01iaB12_OpenManagerC04showA02vc13containerView1s10completionySo16UIViewControllerC_So0J0CSSys6ResultOyyts5Error_pGctF",
+            "mangledName": "$s7iAdsSDK01iaB12_OpenManagerC04showA02vc13containerView1s10completionySo16UIViewControllerC_So0J0CSSys6ResultOyyts5Error_pGctF",
+            "moduleName": "iAdsSDK",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "preloadAds",
+            "printedName": "preloadAds(screenName:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Result<(), any Swift.Error>) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "Swift.Result<(), any Swift.Error>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:s6ResultO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7iAdsSDK01iaB12_OpenManagerC07preloadA010screenName10completionySSSg_ys6ResultOyyts5Error_pGcSgtF",
+            "mangledName": "$s7iAdsSDK01iaB12_OpenManagerC07preloadA010screenName10completionySSSg_ys6ResultOyyts5Error_pGcSgtF",
+            "moduleName": "iAdsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7iAdsSDK01iaB12_OpenManagerC",
+        "mangledName": "$s7iAdsSDK01iaB12_OpenManagerC",
+        "moduleName": "iAdsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iAdsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "OperatorDecl",
+        "name": "<-",
+        "printedName": "<-",
+        "declKind": "InfixOperator",
+        "moduleName": "iAdsSDK",
+        "declAttributes": [
+          "Infix"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iAdsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "iAdsCoreSDK",
+        "printedName": "iAdsCoreSDK",
+        "declKind": "Import",
+        "moduleName": "iAdsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdsName",
+        "printedName": "AdsName",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ads_mod",
+            "printedName": "ads_mod",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iAdsSDK.AdsName.Type) -> iAdsSDK.AdsName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdsName",
+                    "printedName": "iAdsSDK.AdsName",
+                    "usr": "s:7iAdsSDK0A4NameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iAdsSDK.AdsName.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdsName",
+                        "printedName": "iAdsSDK.AdsName",
+                        "usr": "s:7iAdsSDK0A4NameO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7iAdsSDK0A4NameO7ads_modyA2CmF",
+            "mangledName": "$s7iAdsSDK0A4NameO7ads_modyA2CmF",
+            "moduleName": "iAdsSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "ads_max",
+            "printedName": "ads_max",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iAdsSDK.AdsName.Type) -> iAdsSDK.AdsName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdsName",
+                    "printedName": "iAdsSDK.AdsName",
+                    "usr": "s:7iAdsSDK0A4NameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iAdsSDK.AdsName.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdsName",
+                        "printedName": "iAdsSDK.AdsName",
+                        "usr": "s:7iAdsSDK0A4NameO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7iAdsSDK0A4NameO7ads_maxyA2CmF",
+            "mangledName": "$s7iAdsSDK0A4NameO7ads_maxyA2CmF",
+            "moduleName": "iAdsSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "ads_gam",
+            "printedName": "ads_gam",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iAdsSDK.AdsName.Type) -> iAdsSDK.AdsName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdsName",
+                    "printedName": "iAdsSDK.AdsName",
+                    "usr": "s:7iAdsSDK0A4NameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iAdsSDK.AdsName.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdsName",
+                        "printedName": "iAdsSDK.AdsName",
+                        "usr": "s:7iAdsSDK0A4NameO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7iAdsSDK0A4NameO7ads_gamyA2CmF",
+            "mangledName": "$s7iAdsSDK0A4NameO7ads_gamyA2CmF",
+            "moduleName": "iAdsSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "iAdsSDK.AdsName?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdsName",
+                    "printedName": "iAdsSDK.AdsName",
+                    "usr": "s:7iAdsSDK0A4NameO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7iAdsSDK0A4NameO8rawValueACSgSS_tcfc",
+            "mangledName": "$s7iAdsSDK0A4NameO8rawValueACSgSS_tcfc",
+            "moduleName": "iAdsSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7iAdsSDK0A4NameO8rawValueSSvp",
+            "mangledName": "$s7iAdsSDK0A4NameO8rawValueSSvp",
+            "moduleName": "iAdsSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7iAdsSDK0A4NameO8rawValueSSvg",
+                "mangledName": "$s7iAdsSDK0A4NameO8rawValueSSvg",
+                "moduleName": "iAdsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7iAdsSDK0A4NameO",
+        "mangledName": "$s7iAdsSDK0A4NameO",
+        "moduleName": "iAdsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "iAdsCoreSDK",
+        "printedName": "iAdsCoreSDK",
+        "declKind": "Import",
+        "moduleName": "iAdsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iAdsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iAdsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "iTrackingSDK",
+        "printedName": "iTrackingSDK",
+        "declKind": "Import",
+        "moduleName": "iAdsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "iAdsCoreSDK",
+        "printedName": "iAdsCoreSDK",
+        "declKind": "Import",
+        "moduleName": "iAdsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "iAdsSDK_NativeManager",
+        "printedName": "iAdsSDK_NativeManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "iAdsSDK_NativeManager",
+                "printedName": "iAdsSDK.iAdsSDK_NativeManager",
+                "usr": "s:7iAdsSDK01iaB14_NativeManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7iAdsSDK01iaB14_NativeManagerC6sharedACvpZ",
+            "mangledName": "$s7iAdsSDK01iaB14_NativeManagerC6sharedACvpZ",
+            "moduleName": "iAdsSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "iAdsSDK_NativeManager",
+                    "printedName": "iAdsSDK.iAdsSDK_NativeManager",
+                    "usr": "s:7iAdsSDK01iaB14_NativeManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7iAdsSDK01iaB14_NativeManagerC6sharedACvgZ",
+                "mangledName": "$s7iAdsSDK01iaB14_NativeManagerC6sharedACvgZ",
+                "moduleName": "iAdsSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "showAds",
+            "printedName": "showAds(vc:containerView:nativeAdmobView:nativeMaxView:placement:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7iAdsSDK01iaB14_NativeManagerC04showA02vc13containerView011nativeAdmobH00i3MaxH09placement10completionySo16UIViewControllerC_So0N0CA2NSSys6ResultOyyts5Error_pGctF",
+            "mangledName": "$s7iAdsSDK01iaB14_NativeManagerC04showA02vc13containerView011nativeAdmobH00i3MaxH09placement10completionySo16UIViewControllerC_So0N0CA2NSSys6ResultOyyts5Error_pGctF",
+            "moduleName": "iAdsSDK",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "preloadAds",
+            "printedName": "preloadAds(screenName:vc:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Result<(), any Swift.Error>) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "Swift.Result<(), any Swift.Error>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:s6ResultO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7iAdsSDK01iaB14_NativeManagerC07preloadA010screenName2vc10completionySSSg_So16UIViewControllerCys6ResultOyyts5Error_pGcSgtF",
+            "mangledName": "$s7iAdsSDK01iaB14_NativeManagerC07preloadA010screenName2vc10completionySSSg_So16UIViewControllerCys6ResultOyyts5Error_pGcSgtF",
+            "moduleName": "iAdsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7iAdsSDK01iaB14_NativeManagerC",
+        "mangledName": "$s7iAdsSDK01iaB14_NativeManagerC",
+        "moduleName": "iAdsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "iAdsCoreSDK",
+        "printedName": "iAdsCoreSDK",
+        "declKind": "Import",
+        "moduleName": "iAdsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iAdsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iAdsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "iAdsCoreSDK",
+        "printedName": "iAdsCoreSDK",
+        "declKind": "Import",
+        "moduleName": "iAdsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iAdsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iAdsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iAdsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iAdsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "iReadFileConfigSDK",
+        "printedName": "iReadFileConfigSDK",
+        "declKind": "Import",
+        "moduleName": "iAdsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "iLogSDK",
+        "printedName": "iLogSDK",
+        "declKind": "Import",
+        "moduleName": "iAdsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "iRemoteConfigSDK",
+        "printedName": "iRemoteConfigSDK",
+        "declKind": "Import",
+        "moduleName": "iAdsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "iComponentsSDK",
+        "printedName": "iComponentsSDK",
+        "declKind": "Import",
+        "moduleName": "iAdsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "iSecuritySDK",
+        "printedName": "iSecuritySDK",
+        "declKind": "Import",
+        "moduleName": "iAdsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "iAdsCoreSDK",
+        "printedName": "iAdsCoreSDK",
+        "declKind": "Import",
+        "moduleName": "iAdsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "iAdsSDKManager",
+        "printedName": "iAdsSDKManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "iAdsSDKManager",
+                "printedName": "iAdsSDK.iAdsSDKManager",
+                "usr": "s:7iAdsSDK01iA10SDKManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7iAdsSDK01iA10SDKManagerC6sharedACvpZ",
+            "mangledName": "$s7iAdsSDK01iA10SDKManagerC6sharedACvpZ",
+            "moduleName": "iAdsSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "iAdsSDKManager",
+                    "printedName": "iAdsSDK.iAdsSDKManager",
+                    "usr": "s:7iAdsSDK01iA10SDKManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7iAdsSDK01iA10SDKManagerC6sharedACvgZ",
+                "mangledName": "$s7iAdsSDK01iA10SDKManagerC6sharedACvgZ",
+                "moduleName": "iAdsSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isCanShowAds",
+            "printedName": "isCanShowAds",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7iAdsSDK01iA10SDKManagerC09isCanShowA0Sbvp",
+            "mangledName": "$s7iAdsSDK01iA10SDKManagerC09isCanShowA0Sbvp",
+            "moduleName": "iAdsSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7iAdsSDK01iA10SDKManagerC09isCanShowA0Sbvg",
+                "mangledName": "$s7iAdsSDK01iA10SDKManagerC09isCanShowA0Sbvg",
+                "moduleName": "iAdsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7iAdsSDK01iA10SDKManagerC09isCanShowA0Sbvs",
+                "mangledName": "$s7iAdsSDK01iA10SDKManagerC09isCanShowA0Sbvs",
+                "moduleName": "iAdsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7iAdsSDK01iA10SDKManagerC09isCanShowA0SbvM",
+                "mangledName": "$s7iAdsSDK01iA10SDKManagerC09isCanShowA0SbvM",
+                "moduleName": "iAdsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isCanShowAdsResume",
+            "printedName": "isCanShowAdsResume",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7iAdsSDK01iA10SDKManagerC09isCanShowA6ResumeSbvp",
+            "mangledName": "$s7iAdsSDK01iA10SDKManagerC09isCanShowA6ResumeSbvp",
+            "moduleName": "iAdsSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7iAdsSDK01iA10SDKManagerC09isCanShowA6ResumeSbvg",
+                "mangledName": "$s7iAdsSDK01iA10SDKManagerC09isCanShowA6ResumeSbvg",
+                "moduleName": "iAdsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7iAdsSDK01iA10SDKManagerC09isCanShowA6ResumeSbvs",
+                "mangledName": "$s7iAdsSDK01iA10SDKManagerC09isCanShowA6ResumeSbvs",
+                "moduleName": "iAdsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7iAdsSDK01iA10SDKManagerC09isCanShowA6ResumeSbvM",
+                "mangledName": "$s7iAdsSDK01iA10SDKManagerC09isCanShowA6ResumeSbvM",
+                "moduleName": "iAdsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "vc",
+            "printedName": "vc",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7iAdsSDK01iA10SDKManagerC2vcSo16UIViewControllerCvp",
+            "mangledName": "$s7iAdsSDK01iA10SDKManagerC2vcSo16UIViewControllerCvp",
+            "moduleName": "iAdsSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7iAdsSDK01iA10SDKManagerC2vcSo16UIViewControllerCvg",
+                "mangledName": "$s7iAdsSDK01iA10SDKManagerC2vcSo16UIViewControllerCvg",
+                "moduleName": "iAdsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7iAdsSDK01iA10SDKManagerC2vcSo16UIViewControllerCvs",
+                "mangledName": "$s7iAdsSDK01iA10SDKManagerC2vcSo16UIViewControllerCvs",
+                "moduleName": "iAdsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7iAdsSDK01iA10SDKManagerC2vcSo16UIViewControllerCvM",
+                "mangledName": "$s7iAdsSDK01iA10SDKManagerC2vcSo16UIViewControllerCvM",
+                "moduleName": "iAdsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxKey",
+            "printedName": "maxKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7iAdsSDK01iA10SDKManagerC6maxKeySSvp",
+            "mangledName": "$s7iAdsSDK01iA10SDKManagerC6maxKeySSvp",
+            "moduleName": "iAdsSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7iAdsSDK01iA10SDKManagerC6maxKeySSvg",
+                "mangledName": "$s7iAdsSDK01iA10SDKManagerC6maxKeySSvg",
+                "moduleName": "iAdsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7iAdsSDK01iA10SDKManagerC6maxKeySSvs",
+                "mangledName": "$s7iAdsSDK01iA10SDKManagerC6maxKeySSvs",
+                "moduleName": "iAdsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7iAdsSDK01iA10SDKManagerC6maxKeySSvM",
+                "mangledName": "$s7iAdsSDK01iA10SDKManagerC6maxKeySSvM",
+                "moduleName": "iAdsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setup",
+            "printedName": "setup(isTestAds:interManager:openManager:rewardedManager:bannerManager:nativeManager:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[iAdsSDK.AdsName : any iAdsCoreSDK.iAdsCoreSDK_IntertitialProtocol.Type]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdsName",
+                    "printedName": "iAdsSDK.AdsName",
+                    "usr": "s:7iAdsSDK0A4NameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "any iAdsCoreSDK.iAdsCoreSDK_IntertitialProtocol.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "iAdsCoreSDK_IntertitialProtocol",
+                        "printedName": "iAdsCoreSDK.iAdsCoreSDK_IntertitialProtocol",
+                        "usr": "s:11iAdsCoreSDK01iabC20_IntertitialProtocolP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[iAdsSDK.AdsName : any iAdsCoreSDK.iAdsCoreSDK_OpenProtocol.Type]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdsName",
+                    "printedName": "iAdsSDK.AdsName",
+                    "usr": "s:7iAdsSDK0A4NameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "any iAdsCoreSDK.iAdsCoreSDK_OpenProtocol.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "iAdsCoreSDK_OpenProtocol",
+                        "printedName": "iAdsCoreSDK.iAdsCoreSDK_OpenProtocol",
+                        "usr": "s:11iAdsCoreSDK01iabC13_OpenProtocolP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[iAdsSDK.AdsName : any iAdsCoreSDK.iAdsCoreSDK_RewardedProtocol.Type]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdsName",
+                    "printedName": "iAdsSDK.AdsName",
+                    "usr": "s:7iAdsSDK0A4NameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "any iAdsCoreSDK.iAdsCoreSDK_RewardedProtocol.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "iAdsCoreSDK_RewardedProtocol",
+                        "printedName": "iAdsCoreSDK.iAdsCoreSDK_RewardedProtocol",
+                        "usr": "s:11iAdsCoreSDK01iabC17_RewardedProtocolP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[iAdsSDK.AdsName : any iAdsCoreSDK.iAdsCoreSDK_BannerProtocol.Type]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdsName",
+                    "printedName": "iAdsSDK.AdsName",
+                    "usr": "s:7iAdsSDK0A4NameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "any iAdsCoreSDK.iAdsCoreSDK_BannerProtocol.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "iAdsCoreSDK_BannerProtocol",
+                        "printedName": "iAdsCoreSDK.iAdsCoreSDK_BannerProtocol",
+                        "usr": "s:11iAdsCoreSDK01iabC15_BannerProtocolP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[iAdsSDK.AdsName : any iAdsCoreSDK.iAdsCoreSDK_NativeProtocol.Type]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdsName",
+                    "printedName": "iAdsSDK.AdsName",
+                    "usr": "s:7iAdsSDK0A4NameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "any iAdsCoreSDK.iAdsCoreSDK_NativeProtocol.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "iAdsCoreSDK_NativeProtocol",
+                        "printedName": "iAdsCoreSDK.iAdsCoreSDK_NativeProtocol",
+                        "usr": "s:11iAdsCoreSDK01iabC15_NativeProtocolP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7iAdsSDK01iA10SDKManagerC5setup06isTestA012interManager04openH008rewardedH006bannerH006nativeH0ySb_SDyAA0A4NameO01ia4CoreB001ianB20_IntertitialProtocol_pXpGSDyAlM01ianb5_OpenP0_pXpGSDyAlM01ianb9_RewardedP0_pXpGSDyAlM01ianb7_BannerP0_pXpGSDyAlM01ianb7_NativeP0_pXpGtF",
+            "mangledName": "$s7iAdsSDK01iA10SDKManagerC5setup06isTestA012interManager04openH008rewardedH006bannerH006nativeH0ySb_SDyAA0A4NameO01ia4CoreB001ianB20_IntertitialProtocol_pXpGSDyAlM01ianb5_OpenP0_pXpGSDyAlM01ianb9_RewardedP0_pXpGSDyAlM01ianb7_BannerP0_pXpGSDyAlM01ianb7_NativeP0_pXpGtF",
+            "moduleName": "iAdsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getData",
+            "printedName": "getData(vc:completionLoadAds:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7iAdsSDK01iA10SDKManagerC7getData2vc014completionLoadA0ySo16UIViewControllerC_ys6ResultOyyts5Error_pGctF",
+            "mangledName": "$s7iAdsSDK01iA10SDKManagerC7getData2vc014completionLoadA0ySo16UIViewControllerC_ys6ResultOyyts5Error_pGctF",
+            "moduleName": "iAdsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showAdsStart",
+            "printedName": "showAdsStart(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7iAdsSDK01iA10SDKManagerC04showA5Start10completionyys6ResultOyyts5Error_pGc_tF",
+            "mangledName": "$s7iAdsSDK01iA10SDKManagerC04showA5Start10completionyys6ResultOyyts5Error_pGc_tF",
+            "moduleName": "iAdsSDK",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showAdsFull",
+            "printedName": "showAdsFull(vc:screenName:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7iAdsSDK01iA10SDKManagerC04showA4Full2vc10screenName10completionySo16UIViewControllerC_SSys6ResultOyyts5Error_pGctF",
+            "mangledName": "$s7iAdsSDK01iA10SDKManagerC04showA4Full2vc10screenName10completionySo16UIViewControllerC_SSys6ResultOyyts5Error_pGctF",
+            "moduleName": "iAdsSDK",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showAdsWidget",
+            "printedName": "showAdsWidget(containerView:nativeAdmobView:nativeMaxView:screenName:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7iAdsSDK01iA10SDKManagerC04showA6Widget13containerView011nativeAdmobG00h3MaxG010screenName10completionySo6UIViewC_A2KSSys6ResultOyyts5Error_pGctF",
+            "mangledName": "$s7iAdsSDK01iA10SDKManagerC04showA6Widget13containerView011nativeAdmobG00h3MaxG010screenName10completionySo6UIViewC_A2KSSys6ResultOyyts5Error_pGctF",
+            "moduleName": "iAdsSDK",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isCanShowAdsFull",
+            "printedName": "isCanShowAdsFull(screenName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7iAdsSDK01iA10SDKManagerC09isCanShowA4Full10screenNameSbSS_tF",
+            "mangledName": "$s7iAdsSDK01iA10SDKManagerC09isCanShowA4Full10screenNameSbSS_tF",
+            "moduleName": "iAdsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isCanshowAdsWidget",
+            "printedName": "isCanshowAdsWidget(screenName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7iAdsSDK01iA10SDKManagerC09isCanshowA6Widget10screenNameSbSS_tF",
+            "mangledName": "$s7iAdsSDK01iA10SDKManagerC09isCanshowA6Widget10screenNameSbSS_tF",
+            "moduleName": "iAdsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "preLoadOpenAds",
+            "printedName": "preLoadOpenAds(screenName:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Result<(), any Swift.Error>) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "Swift.Result<(), any Swift.Error>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:s6ResultO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7iAdsSDK01iA10SDKManagerC011preLoadOpenA010screenName10completionySSSg_ys6ResultOyyts5Error_pGcSgtF",
+            "mangledName": "$s7iAdsSDK01iA10SDKManagerC011preLoadOpenA010screenName10completionySSSg_ys6ResultOyyts5Error_pGcSgtF",
+            "moduleName": "iAdsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "preLoadInterAds",
+            "printedName": "preLoadInterAds(screenName:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Result<(), any Swift.Error>) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "Swift.Result<(), any Swift.Error>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:s6ResultO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7iAdsSDK01iA10SDKManagerC012preLoadInterA010screenName10completionySSSg_ys6ResultOyyts5Error_pGcSgtF",
+            "mangledName": "$s7iAdsSDK01iA10SDKManagerC012preLoadInterA010screenName10completionySSSg_ys6ResultOyyts5Error_pGcSgtF",
+            "moduleName": "iAdsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "preLoadRewardedAds",
+            "printedName": "preLoadRewardedAds(screenName:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Result<(), any Swift.Error>) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "Swift.Result<(), any Swift.Error>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:s6ResultO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7iAdsSDK01iA10SDKManagerC015preLoadRewardedA010screenName10completionySSSg_ys6ResultOyyts5Error_pGcSgtF",
+            "mangledName": "$s7iAdsSDK01iA10SDKManagerC015preLoadRewardedA010screenName10completionySSSg_ys6ResultOyyts5Error_pGcSgtF",
+            "moduleName": "iAdsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "preLoadNativeAds",
+            "printedName": "preLoadNativeAds(screenName:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Result<(), any Swift.Error>) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "Swift.Result<(), any Swift.Error>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:s6ResultO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7iAdsSDK01iA10SDKManagerC013preLoadNativeA010screenName10completionySSSg_ys6ResultOyyts5Error_pGcSgtF",
+            "mangledName": "$s7iAdsSDK01iA10SDKManagerC013preLoadNativeA010screenName10completionySSSg_ys6ResultOyyts5Error_pGcSgtF",
+            "moduleName": "iAdsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7iAdsSDK01iA10SDKManagerC",
+        "mangledName": "$s7iAdsSDK01iA10SDKManagerC",
+        "moduleName": "iAdsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iAdsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iAdsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "iAdsCoreSDK",
+        "printedName": "iAdsCoreSDK",
+        "declKind": "Import",
+        "moduleName": "iAdsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "iAdsSDK_RewardedManager",
+        "printedName": "iAdsSDK_RewardedManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "iAdsSDK_RewardedManager",
+                "printedName": "iAdsSDK.iAdsSDK_RewardedManager",
+                "usr": "s:7iAdsSDK01iaB16_RewardedManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7iAdsSDK01iaB16_RewardedManagerC6sharedACvpZ",
+            "mangledName": "$s7iAdsSDK01iaB16_RewardedManagerC6sharedACvpZ",
+            "moduleName": "iAdsSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "iAdsSDK_RewardedManager",
+                    "printedName": "iAdsSDK.iAdsSDK_RewardedManager",
+                    "usr": "s:7iAdsSDK01iaB16_RewardedManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7iAdsSDK01iaB16_RewardedManagerC6sharedACvgZ",
+                "mangledName": "$s7iAdsSDK01iaB16_RewardedManagerC6sharedACvgZ",
+                "moduleName": "iAdsSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "showAds",
+            "printedName": "showAds(vc:containerView:s:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7iAdsSDK01iaB16_RewardedManagerC04showA02vc13containerView1s10completionySo16UIViewControllerC_So0J0CSSys6ResultOyyts5Error_pGctF",
+            "mangledName": "$s7iAdsSDK01iaB16_RewardedManagerC04showA02vc13containerView1s10completionySo16UIViewControllerC_So0J0CSSys6ResultOyyts5Error_pGctF",
+            "moduleName": "iAdsSDK",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "preloadAds",
+            "printedName": "preloadAds(screenName:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Result<(), any Swift.Error>) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "Swift.Result<(), any Swift.Error>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:s6ResultO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7iAdsSDK01iaB16_RewardedManagerC07preloadA010screenName10completionySSSg_ys6ResultOyyts5Error_pGcSgtF",
+            "mangledName": "$s7iAdsSDK01iaB16_RewardedManagerC07preloadA010screenName10completionySSSg_ys6ResultOyyts5Error_pGcSgtF",
+            "moduleName": "iAdsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7iAdsSDK01iaB16_RewardedManagerC",
+        "mangledName": "$s7iAdsSDK01iaB16_RewardedManagerC",
+        "moduleName": "iAdsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Ads\/Inter\/iAdsSDK_InterManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10293,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Model\/Monet\/FakeManager\/iAdsSDK_OpenManagerFake.swift",
+      "kind": "BooleanLiteral",
+      "offset": 225,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Model\/Monet\/FakeManager\/iAdsSDK_OpenManagerFake.swift",
+      "kind": "BooleanLiteral",
+      "offset": 260,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Model\/Monet\/FakeManager\/iAdsSDK_BannerManagerFake.swift",
+      "kind": "BooleanLiteral",
+      "offset": 232,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Model\/Monet\/FakeManager\/iAdsSDK_BannerManagerFake.swift",
+      "kind": "BooleanLiteral",
+      "offset": 267,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Model\/Po\/iAdsSDK_PoFullAdsConfigModel.swift",
+      "kind": "Array",
+      "offset": 213,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Model\/Po\/iAdsSDK_PoFullAdsConfigModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 673,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Model\/Po\/iAdsSDK_PoFullAdsConfigModel.swift",
+      "kind": "StringLiteral",
+      "offset": 729,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Model\/Po\/iAdsSDK_PoFullAdsConfigModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 850,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Model\/Po\/iAdsSDK_PoFullAdsConfigModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 903,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Ads\/Open\/iAdsSDK_OpenManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10106,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Model\/Monet\/iAdsSDK_MonetDataModel.swift",
+      "kind": "Array",
+      "offset": 196,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Model\/Monet\/iAdsSDK_MonetDataModel.swift",
+      "kind": "Array",
+      "offset": 246,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Model\/Monet\/iAdsSDK_MonetDataModel.swift",
+      "kind": "Array",
+      "offset": 655,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Model\/Monet\/iAdsSDK_MonetDataModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 686,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Model\/Monet\/iAdsSDK_MonetDataModel.swift",
+      "kind": "Array",
+      "offset": 722,
+      "length": 4,
+      "value": "[\"\"]"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Model\/Monet\/iAdsSDK_MonetDataModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1318,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Model\/Monet\/iAdsSDK_MonetDataModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1348,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Model\/Monet\/iAdsSDK_MonetDataModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1416,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Model\/Monet\/iAdsSDK_MonetDataModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1450,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Model\/Monet\/FakeManager\/iAdsSDK_NativeManagerFake.swift",
+      "kind": "BooleanLiteral",
+      "offset": 233,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Model\/Monet\/FakeManager\/iAdsSDK_NativeManagerFake.swift",
+      "kind": "BooleanLiteral",
+      "offset": 268,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Ads\/Native\/iAdsSDK_NativeManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13140,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Model\/Monet\/FakeManager\/iAdsSDK_InterManagerFake.swift",
+      "kind": "BooleanLiteral",
+      "offset": 234,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Model\/Monet\/FakeManager\/iAdsSDK_InterManagerFake.swift",
+      "kind": "BooleanLiteral",
+      "offset": 269,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Model\/Po\/iAdsSDK_PoWidgetAdsConfigModel.swift",
+      "kind": "Array",
+      "offset": 225,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Model\/Po\/iAdsSDK_PoWidgetAdsConfigModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 689,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Model\/Po\/iAdsSDK_PoWidgetAdsConfigModel.swift",
+      "kind": "StringLiteral",
+      "offset": 745,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Model\/Po\/iAdsSDK_PoWidgetAdsConfigModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 857,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Model\/Monet\/FakeManager\/iAdsSDK_RewardedManagerFake.swift",
+      "kind": "BooleanLiteral",
+      "offset": 237,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Model\/Monet\/FakeManager\/iAdsSDK_RewardedManagerFake.swift",
+      "kind": "BooleanLiteral",
+      "offset": 272,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Const\/iAdsSDK_Const.swift",
+      "kind": "StringLiteral",
+      "offset": 181,
+      "length": 5,
+      "value": "\"key\""
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Const\/iAdsSDK_Const.swift",
+      "kind": "StringLiteral",
+      "offset": 221,
+      "length": 13,
+      "value": "\"ikvn2014312\""
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Const\/iAdsSDK_Const.swift",
+      "kind": "StringLiteral",
+      "offset": 268,
+      "length": 18,
+      "value": "\"sdkstikameglobal\""
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Const\/iAdsSDK_Const.swift",
+      "kind": "StringLiteral",
+      "offset": 317,
+      "length": 18,
+      "value": "\"begamobikmglobal\""
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/iAdsSDKManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 436,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/iAdsSDKManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 483,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/iAdsSDKManager.swift",
+      "kind": "StringLiteral",
+      "offset": 559,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/iAdsSDKManager.swift",
+      "kind": "Dictionary",
+      "offset": 857,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/iAdsSDKManager.swift",
+      "kind": "Dictionary",
+      "offset": 925,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/iAdsSDKManager.swift",
+      "kind": "Dictionary",
+      "offset": 1001,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/iAdsSDKManager.swift",
+      "kind": "Dictionary",
+      "offset": 1073,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/iAdsSDKManager.swift",
+      "kind": "Dictionary",
+      "offset": 1145,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/iAdsSDKManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9273,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Model\/Po\/iAdsSDK_PoSdkConfigModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 714,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Model\/Po\/iAdsSDK_PoSdkConfigModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1618,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Model\/Po\/iAdsSDK_PoSdkConfigModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1654,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Model\/Po\/iAdsSDK_PoSdkConfigModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1690,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Model\/Po\/iAdsSDK_PoSdkConfigModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1726,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Model\/Po\/iAdsSDK_PoSdkConfigModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1762,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyentrung\/Repo\/iadssdk\/iAdsSDK\/Ads\/Rewarded\/iAdsSDK_RewardedManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10257,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

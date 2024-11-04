@@ -1,0 +1,6 @@
+framework module iRemoteConfigSDK {
+  umbrella header "iRemoteConfigSDK.h"
+  export *
+
+  module * { export * }
+}
