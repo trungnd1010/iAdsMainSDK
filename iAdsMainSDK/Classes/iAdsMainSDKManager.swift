@@ -102,8 +102,8 @@ public class iAdsMainSDKManager {
                                             completion: completion)
     }
     
-    public func setIsCanShowAdsOpenResume(_ isCanShow: Bool) {
-        iAdsSDKManager.shared.isCanShowAdsResume = isCanShow
+    public func setIsCanShowAdsOpenResume(_ isCanshow: Bool) {
+        iAdsSDKManager.shared.isCanShowAdsResume = isCanshow
     }
     
     public func setIsCanShowAds(_ isCanShow: Bool) {
