@@ -1,6 +1,0 @@
-framework module iLogSDK {
-  umbrella header "iLogSDK.h"
-  export *
-
-  module * { export * }
-}

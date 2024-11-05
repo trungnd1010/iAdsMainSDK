@@ -19,20 +19,20 @@ public class iAdsMainSDKManager {
         var interManager: [AdsName : iAdsCoreSDK_IntertitialProtocol.Type] = [:]
         var openManager: [AdsName : iAdsCoreSDK_OpenProtocol.Type] = [:]
         var rewardedManager: [AdsName : iAdsCoreSDK_RewardedProtocol.Type] = [:]
-        let bannerManager: [AdsName : iAdsCoreSDK_BannerProtocol.Type] = [:]
+        var bannerManager: [AdsName : iAdsCoreSDK_BannerProtocol.Type] = [:]
         var nativeManager: [AdsName : iAdsCoreSDK_NativeProtocol.Type] = [:]
         
         #if canImport(iAdsAdmobSDK)
         interManager[AdsName.ads_mod] = iAdsAdmobSDK_InterManager.self
         openManager[AdsName.ads_mod] = iAdsAdmobSDK_OpenManager.self
         rewardedManager[AdsName.ads_mod] = iAdsAdmobSDK_RewardedManager.self
-//        bannerManager[AdsName.ads_mod] = iadmo
+        bannerManager[AdsName.ads_mod] = iAdsAdmobSDK_BannerManager.self
         nativeManager[AdsName.ads_mod] = iAdsAdmobSDK_NativeManager.self
         
         interManager[AdsName.ads_gam] = iAdsGamSDK_InterManager.self
         openManager[AdsName.ads_gam] = iAdsGamSDK_OpenManager.self
         rewardedManager[AdsName.ads_gam] = iAdsGamSDK_RewardedManager.self
-//        bannerManager[AdsName.ads_mod] = iadsgam
+        bannerManager[AdsName.ads_mod] = iAdsGamSDK_BannerManager.self
         nativeManager[AdsName.ads_gam] = iAdsGamSDK_NativeManager.self
         #endif
         
@@ -40,7 +40,7 @@ public class iAdsMainSDKManager {
         interManager[AdsName.ads_max] = iAdsMaxSDK_InterManager.self
         openManager[AdsName.ads_max] = iAdsMaxSDK_OpenManager.self
         rewardedManager[AdsName.ads_max] = iAdsMaxSDK_RewardedManager.self
-//        bannerManager[AdsName.ads_mod] = iadmo
+        bannerManager[AdsName.ads_mod] = iAdsMaxSDK_BannerManager.self
         nativeManager[AdsName.ads_max] = iAdsMaxSDK_NativeManager.self
         #endif
         

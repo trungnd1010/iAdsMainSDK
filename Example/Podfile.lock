@@ -2,7 +2,52 @@ PODS:
   - Adjust (4.38.4):
     - Adjust/Core (= 4.38.4)
   - Adjust/Core (4.38.4)
+  - Ads-Global (6.3.0.8):
+    - Ads-Global/BUAdSDK (= 6.3.0.8)
+  - Ads-Global/BUAdSDK (6.3.0.8)
+  - AmazonPublisherServicesSDK (4.10.1)
+  - AppLovinMediationAmazonAdMarketplaceAdapter (4.10.1.0):
+    - AppLovinSDK
+  - AppLovinMediationBidMachineAdapter (3.0.1.0.0):
+    - AppLovinSDK (>= 13.0.0)
+    - BidMachine (= 3.0.1)
+  - AppLovinMediationByteDanceAdapter (6.3.0.8.0):
+    - Ads-Global (= 6.3.0.8)
+    - AppLovinSDK (>= 13.0.0)
+  - AppLovinMediationFacebookAdapter (6.15.2.1):
+    - AppLovinSDK (>= 13.0.0)
+    - FBAudienceNetwork (= 6.15.2)
+  - AppLovinMediationFyberAdapter (8.3.2.1):
+    - AppLovinSDK (>= 13.0.0)
+    - Fyber_Marketplace_SDK (= 8.3.2)
+  - AppLovinMediationGoogleAdapter (11.11.0.0):
+    - AppLovinSDK (>= 13.0.0)
+    - Google-Mobile-Ads-SDK (= 11.11.0)
+  - AppLovinMediationGoogleAdManagerAdapter (11.11.0.0):
+    - AppLovinSDK (>= 13.0.0)
+    - Google-Mobile-Ads-SDK (= 11.11.0)
+  - AppLovinMediationInMobiAdapter (10.7.8.0):
+    - AppLovinSDK (>= 13.0.0)
+    - InMobiSDK (= 10.7.8)
+  - AppLovinMediationMintegralAdapter (7.7.3.0.0):
+    - AppLovinSDK (>= 13.0.0)
+    - MintegralAdSDK (= 7.7.3)
+    - MintegralAdSDK/BidSplashAd (= 7.7.3)
+  - AppLovinMediationOguryPresageAdapter (5.0.1.0):
+    - AppLovinSDK
+    - OgurySdk (= 5.0.1)
+  - AppLovinMediationUnityAdsAdapter (4.12.4.0):
+    - AppLovinSDK (>= 13.0.0)
+    - UnityAds (= 4.12.4)
+  - AppLovinMediationVungleAdapter (7.4.2.1):
+    - AppLovinSDK (>= 13.0.0)
+    - VungleAds (= 7.4.2)
   - AppLovinSDK (13.0.1)
+  - BidMachine (3.0.1):
+    - BidMachine/Static (= 3.0.1)
+  - BidMachine/Static (3.0.1):
+    - StackModules/Static (~> 2.2.0)
+  - FBAudienceNetwork (6.15.2)
   - FirebaseABTesting (11.4.0):
     - FirebaseCore (~> 11.0)
   - FirebaseCore (11.4.2):
@@ -26,8 +71,18 @@ PODS:
     - "GoogleUtilities/NSData+zlib (~> 8.0)"
   - FirebaseRemoteConfigInterop (11.4.0)
   - FirebaseSharedSwift (11.4.0)
+  - Fyber_Marketplace_SDK (8.3.2)
   - Google-Mobile-Ads-SDK (11.11.0):
     - GoogleUserMessagingPlatform (>= 1.1)
+  - GoogleMobileAdsMediationAppLovin (13.0.1.0):
+    - AppLovinSDK (= 13.0.1)
+    - Google-Mobile-Ads-SDK (~> 11.0)
+  - GoogleMobileAdsMediationMintegral (7.7.3.0):
+    - Google-Mobile-Ads-SDK (~> 11.0)
+    - MintegralAdSDK/All (= 7.7.3)
+  - GoogleMobileAdsMediationPangle (6.3.0.8.0):
+    - Ads-Global (= 6.3.0.8)
+    - Google-Mobile-Ads-SDK (~> 11.0)
   - GoogleUserMessagingPlatform (2.7.0)
   - GoogleUtilities/Environment (8.0.2):
     - GoogleUtilities/Privacy
@@ -40,26 +95,42 @@ PODS:
   - GoogleUtilities/UserDefaults (8.0.2):
     - GoogleUtilities/Logger
     - GoogleUtilities/Privacy
-  - iAdsAdmobSDK (1.4.0):
+  - iAdsAdmobSDK (1.7.0):
     - Google-Mobile-Ads-SDK
+    - GoogleMobileAdsMediationAppLovin
+    - GoogleMobileAdsMediationMintegral
+    - GoogleMobileAdsMediationPangle
     - iAdsCoreSDK
     - iComponentsSDK
-  - iAdsCoreSDK (1.0.0):
+  - iAdsCoreSDK (1.5.0):
     - iTrackingSDK
-  - iAdsMainSDK (0.1.0):
-    - iAdsMainSDK/Core (= 0.1.0)
-  - iAdsMainSDK/AdsAdmob (0.1.0):
+  - iAdsMainSDK (0.3.0):
+    - iAdsMainSDK/Core (= 0.3.0)
+  - iAdsMainSDK/AdsAdmob (0.3.0):
     - iAdsAdmobSDK
-  - iAdsMainSDK/AdsMax (0.1.0):
+  - iAdsMainSDK/AdsMax (0.3.0):
     - iAdsMaxSDK
-  - iAdsMainSDK/Core (0.1.0):
+  - iAdsMainSDK/Core (0.3.0):
     - GoogleUserMessagingPlatform
     - iAdsSDK
-  - iAdsMaxSDK (1.2.0):
+  - iAdsMaxSDK (1.7.0):
+    - AmazonPublisherServicesSDK
+    - AppLovinMediationAmazonAdMarketplaceAdapter
+    - AppLovinMediationBidMachineAdapter
+    - AppLovinMediationByteDanceAdapter
+    - AppLovinMediationFacebookAdapter
+    - AppLovinMediationFyberAdapter
+    - AppLovinMediationGoogleAdapter
+    - AppLovinMediationGoogleAdManagerAdapter
+    - AppLovinMediationInMobiAdapter
+    - AppLovinMediationMintegralAdapter
+    - AppLovinMediationOguryPresageAdapter
+    - AppLovinMediationUnityAdsAdapter
+    - AppLovinMediationVungleAdapter
     - AppLovinSDK
     - iAdsCoreSDK
     - iComponentsSDK
-  - iAdsSDK (1.1.0):
+  - iAdsSDK (1.5.0):
     - iAdsCoreSDK
     - iComponentsSDK
     - iLogSDK
@@ -67,14 +138,92 @@ PODS:
     - iSecuritySDK
   - iComponentsSDK (1.0.0)
   - iLogSDK (1.0.0)
+  - InMobiSDK (10.7.8)
   - iReadFileConfigSDK (1.0.0)
   - iRemoteConfigSDK (1.0.0):
     - FirebaseRemoteConfig
   - iSecuritySDK (1.0.0)
-  - iTrackingSDK (1.1.0):
+  - iTrackingSDK (1.2.0):
     - Adjust (= 4.38.4)
     - iReadFileConfigSDK
+  - MintegralAdSDK (7.7.3):
+    - MintegralAdSDK/BannerAd (= 7.7.3)
+    - MintegralAdSDK/BidBannerAd (= 7.7.3)
+    - MintegralAdSDK/BidInterstitialVideoAd (= 7.7.3)
+    - MintegralAdSDK/BidNativeAd (= 7.7.3)
+    - MintegralAdSDK/BidNewInterstitialAd (= 7.7.3)
+    - MintegralAdSDK/BidRewardVideoAd (= 7.7.3)
+    - MintegralAdSDK/InterstitialVideoAd (= 7.7.3)
+    - MintegralAdSDK/NativeAd (= 7.7.3)
+    - MintegralAdSDK/NewInterstitialAd (= 7.7.3)
+    - MintegralAdSDK/RewardVideoAd (= 7.7.3)
+  - MintegralAdSDK/All (7.7.3):
+    - MintegralAdSDK/BannerAd
+    - MintegralAdSDK/BidNativeAd
+    - MintegralAdSDK/InterstitialVideoAd
+    - MintegralAdSDK/NativeAd
+    - MintegralAdSDK/NativeAdvancedAd
+    - MintegralAdSDK/NewInterstitialAd
+    - MintegralAdSDK/RewardVideoAd
+    - MintegralAdSDK/SplashAd
+  - MintegralAdSDK/BannerAd (7.7.3):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/BidBannerAd (7.7.3):
+    - MintegralAdSDK/BannerAd
+    - MintegralAdSDK/BidNativeAd
+  - MintegralAdSDK/BidInterstitialVideoAd (7.7.3):
+    - MintegralAdSDK/BidNativeAd
+    - MintegralAdSDK/InterstitialVideoAd
+  - MintegralAdSDK/BidNativeAd (7.7.3):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/BidNewInterstitialAd (7.7.3):
+    - MintegralAdSDK/BidNativeAd
+    - MintegralAdSDK/NewInterstitialAd
+  - MintegralAdSDK/BidRewardVideoAd (7.7.3):
+    - MintegralAdSDK/BidNativeAd
+    - MintegralAdSDK/RewardVideoAd
+  - MintegralAdSDK/BidSplashAd (7.7.3):
+    - MintegralAdSDK/BidNativeAd
+    - MintegralAdSDK/SplashAd
+  - MintegralAdSDK/InterstitialVideoAd (7.7.3):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/NativeAd (7.7.3)
+  - MintegralAdSDK/NativeAdvancedAd (7.7.3):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/NewInterstitialAd (7.7.3):
+    - MintegralAdSDK/InterstitialVideoAd
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/RewardVideoAd (7.7.3):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/SplashAd (7.7.3):
+    - MintegralAdSDK/NativeAd
+  - OguryAds (4.0.1):
+    - OguryAds/OMID (= 4.0.1)
+    - OguryCore (= 2.0.0)
+  - OguryAds/OMID (4.0.1):
+    - OguryCore (= 2.0.0)
+  - OguryCore (2.0.0)
+  - OgurySdk (5.0.1):
+    - OguryCore (= 2.0.0)
+    - OgurySdk/OguryAds (= 5.0.1)
+  - OgurySdk/OguryAds (5.0.1):
+    - OguryAds (= 4.0.1)
+    - OguryCore (= 2.0.0)
+  - OMSDK_Appodeal (1.5.2)
   - PromisesObjC (2.4.0)
+  - StackModules/Core-Static (2.2.0)
+  - StackModules/ProductPresentation-Static (2.2.0):
+    - StackModules/Core-Static
+  - StackModules/Rendering-Static (2.2.0):
+    - OMSDK_Appodeal (~> 1.5.0)
+    - StackModules/Core-Static
+    - StackModules/ProductPresentation-Static
+  - StackModules/Static (2.2.0):
+    - StackModules/Core-Static
+    - StackModules/ProductPresentation-Static
+    - StackModules/Rendering-Static
+  - UnityAds (4.12.4)
+  - VungleAds (7.4.2)
 
 DEPENDENCIES:
   - iAdsMainSDK (from `../`)
@@ -84,7 +233,23 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Adjust
+    - Ads-Global
+    - AmazonPublisherServicesSDK
+    - AppLovinMediationAmazonAdMarketplaceAdapter
+    - AppLovinMediationBidMachineAdapter
+    - AppLovinMediationByteDanceAdapter
+    - AppLovinMediationFacebookAdapter
+    - AppLovinMediationFyberAdapter
+    - AppLovinMediationGoogleAdapter
+    - AppLovinMediationGoogleAdManagerAdapter
+    - AppLovinMediationInMobiAdapter
+    - AppLovinMediationMintegralAdapter
+    - AppLovinMediationOguryPresageAdapter
+    - AppLovinMediationUnityAdsAdapter
+    - AppLovinMediationVungleAdapter
     - AppLovinSDK
+    - BidMachine
+    - FBAudienceNetwork
     - FirebaseABTesting
     - FirebaseCore
     - FirebaseCoreInternal
@@ -92,7 +257,11 @@ SPEC REPOS:
     - FirebaseRemoteConfig
     - FirebaseRemoteConfigInterop
     - FirebaseSharedSwift
+    - Fyber_Marketplace_SDK
     - Google-Mobile-Ads-SDK
+    - GoogleMobileAdsMediationAppLovin
+    - GoogleMobileAdsMediationMintegral
+    - GoogleMobileAdsMediationPangle
     - GoogleUserMessagingPlatform
     - GoogleUtilities
     - iAdsAdmobSDK
@@ -101,11 +270,20 @@ SPEC REPOS:
     - iAdsSDK
     - iComponentsSDK
     - iLogSDK
+    - InMobiSDK
     - iReadFileConfigSDK
     - iRemoteConfigSDK
     - iSecuritySDK
     - iTrackingSDK
+    - MintegralAdSDK
+    - OguryAds
+    - OguryCore
+    - OgurySdk
+    - OMSDK_Appodeal
     - PromisesObjC
+    - StackModules
+    - UnityAds
+    - VungleAds
 
 EXTERNAL SOURCES:
   iAdsMainSDK:
@@ -113,7 +291,23 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Adjust: afda46df69f035fd216310fb85f399c40c61830a
+  Ads-Global: 16c76f2e4b235042464c0f2d086650286dceebf5
+  AmazonPublisherServicesSDK: 8e6b685c1c6fdc17a24f6723ff6f0fe7036f7326
+  AppLovinMediationAmazonAdMarketplaceAdapter: 1837f850885b644f28691a2005e30e3af7861e82
+  AppLovinMediationBidMachineAdapter: bf7e730198ecb9a5af19e1d2644ebf6e7290f7d4
+  AppLovinMediationByteDanceAdapter: 56a7cba6e85a7abb1b943cb2793279b2c03900fb
+  AppLovinMediationFacebookAdapter: a569c3015e24b5e00049a46bb344ba00894b3541
+  AppLovinMediationFyberAdapter: 5fa1488a43fd8359f028a07f4fbf091835eee8ba
+  AppLovinMediationGoogleAdapter: a40f301fda2e26efa96ec754d4f85fcaca56de73
+  AppLovinMediationGoogleAdManagerAdapter: 55bcbe384bbef1f4109350a860d6a3fb92526664
+  AppLovinMediationInMobiAdapter: e21ac5d93bec66d8b03f5d914190078e66368540
+  AppLovinMediationMintegralAdapter: 97d210078a2de1d2f5c922346010ab844e046271
+  AppLovinMediationOguryPresageAdapter: 2154b8b0c70c67c6ed7db7177a1cdc00ff1c667c
+  AppLovinMediationUnityAdsAdapter: d3d2c0def05e24d9d00119ced77dc0813cc40f34
+  AppLovinMediationVungleAdapter: c21018a07aeca248d8cca28cf027e6d620a7fe1d
   AppLovinSDK: fdae6a4361c9c9b09f8d7d18ede792368221d987
+  BidMachine: cb15c3d1324c8864954550cddd968605a2cfb3cf
+  FBAudienceNetwork: 2457a89b45e2596241fd81b0c2fd8cb6f6053869
   FirebaseABTesting: aef1719704fade00b200827e7973f352efc4caee
   FirebaseCore: 6b32c57269bd999aab34354c3923d92a6e5f3f84
   FirebaseCoreInternal: 35731192cab10797b88411be84940d2beb33a238
@@ -121,21 +315,34 @@ SPEC CHECKSUMS:
   FirebaseRemoteConfig: 7655681d02417bc9b287338edb9d721ff79e1a4a
   FirebaseRemoteConfigInterop: e76f46ffa4d6a65e273d4dfebb6a79e588cec136
   FirebaseSharedSwift: 505dae2d05969dbf6d43749a642bb1bf230f0252
+  Fyber_Marketplace_SDK: 215c2020efd507c0e97f40871e96a26918f8986e
   Google-Mobile-Ads-SDK: 6d2fc31d83b7b13a7dee3d622f1538fa3324958a
+  GoogleMobileAdsMediationAppLovin: 8617e4faec72e3bddc639b8de4182227fb68baa0
+  GoogleMobileAdsMediationMintegral: 23140cf05ff9ee869186459dc685bb1948ccbd16
+  GoogleMobileAdsMediationPangle: 2f4e476d953a0cddd0104a9d15ec1407cce54f4b
   GoogleUserMessagingPlatform: a8b56893477f67212fbc8411c139e61d463349f5
   GoogleUtilities: 26a3abef001b6533cf678d3eb38fd3f614b7872d
-  iAdsAdmobSDK: 7a3ac5acfa64dfeaa488e873cb0b83dcdcc611ce
-  iAdsCoreSDK: 64da4e3db811cb8148f4d0d824844ae2815a7162
-  iAdsMainSDK: 70345a4fa7bdacbac6fa1cfcf60fccfb22fb47bc
-  iAdsMaxSDK: 09059f5ae3d3329987d8debf017e69c8a79e9fe1
-  iAdsSDK: b6d0ebd00a9c7b00bf8f6e8ea4df639c92fce1c5
+  iAdsAdmobSDK: 5eb6590ea606d09a0c92eb6f1f5d75101138869e
+  iAdsCoreSDK: 8fab6971c49966eee6068c4bb6774322ecf05579
+  iAdsMainSDK: 9bcfcccf0fe943db851d3a671cf0c9bd84684203
+  iAdsMaxSDK: 23ef2f4ef5a40e69e5bc1a4f2d1365b238ed4f0f
+  iAdsSDK: 5630d098f337e785984941d87e5d0ffa08514a00
   iComponentsSDK: 56858f4f510d4bbbd1cf2526a4b7848eac9d5d9c
   iLogSDK: 8454481e3e71247a94598e6c949fcc01f20ab22d
+  InMobiSDK: ee53561ba1fd21787b1eb82f02da9b93067ffc8e
   iReadFileConfigSDK: 81543aa77b5b5c1a2669ef115e66c25482bdee23
   iRemoteConfigSDK: 68d03ab0ea0c9e14de15e059e41361c06d910363
   iSecuritySDK: f54c06c45b5ba3970f3e36fe385dbf9767fab755
-  iTrackingSDK: 2e37dae9d569784d99f93746645b0c194a3bd284
+  iTrackingSDK: 73b72f9089a8b13ae9dc9d105ab689850eb2dab1
+  MintegralAdSDK: 217cca20529055c8791c82985dd7a74864e49fd0
+  OguryAds: 5bb3440777dbe8439621985761f5ebdf0b8c593c
+  OguryCore: 1c7c2009f958b7026d5bca89e4c97dfa3fa9ef87
+  OgurySdk: 95d23dee02e7c022f72328652b3e0d3eb694512a
+  OMSDK_Appodeal: 066f9da2c77d560e319341c6bd4739828bc65842
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
+  StackModules: 01456d85a6ddbaa52059e9d9d6ee7ec8812d10ca
+  UnityAds: df29459d94ca7c0676cdd9ba96ef6420670ffbfa
+  VungleAds: d7cf66a6dfd390a583ea2b2cfb9af1043b686e58
 
 PODFILE CHECKSUM: 821f657efd050b9173a7e9d01f690d885598443b
 

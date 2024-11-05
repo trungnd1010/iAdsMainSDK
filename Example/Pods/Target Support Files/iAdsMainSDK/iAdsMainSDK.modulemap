@@ -1,6 +1,0 @@
-framework module iAdsMainSDK {
-  umbrella header "iAdsMainSDK-umbrella.h"
-
-  export *
-  module * { export * }
-}

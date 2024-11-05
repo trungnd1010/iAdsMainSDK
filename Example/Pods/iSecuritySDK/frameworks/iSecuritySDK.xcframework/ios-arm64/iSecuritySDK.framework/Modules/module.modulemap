@@ -1,6 +1,0 @@
-framework module iSecuritySDK {
-  umbrella header "iSecuritySDK.h"
-  export *
-
-  module * { export * }
-}
