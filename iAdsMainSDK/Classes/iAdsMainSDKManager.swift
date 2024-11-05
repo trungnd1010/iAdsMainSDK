@@ -32,7 +32,7 @@ public class iAdsMainSDKManager {
         interManager[AdsName.ads_gam] = iAdsGamSDK_InterManager.self
         openManager[AdsName.ads_gam] = iAdsGamSDK_OpenManager.self
         rewardedManager[AdsName.ads_gam] = iAdsGamSDK_RewardedManager.self
-        bannerManager[AdsName.ads_mod] = iAdsGamSDK_BannerManager.self
+        bannerManager[AdsName.ads_gam] = iAdsGamSDK_BannerManager.self
         nativeManager[AdsName.ads_gam] = iAdsGamSDK_NativeManager.self
         #endif
         
@@ -40,7 +40,7 @@ public class iAdsMainSDKManager {
         interManager[AdsName.ads_max] = iAdsMaxSDK_InterManager.self
         openManager[AdsName.ads_max] = iAdsMaxSDK_OpenManager.self
         rewardedManager[AdsName.ads_max] = iAdsMaxSDK_RewardedManager.self
-        bannerManager[AdsName.ads_mod] = iAdsMaxSDK_BannerManager.self
+        bannerManager[AdsName.ads_max] = iAdsMaxSDK_BannerManager.self
         nativeManager[AdsName.ads_max] = iAdsMaxSDK_NativeManager.self
         #endif
         
