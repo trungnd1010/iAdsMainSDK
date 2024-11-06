@@ -60,6 +60,7 @@ public class iAdsMainSDKManager {
     #endif
     }
     
+    @MainActor
     public func getData(vc: UIViewController,
                         completionLoadAds: @escaping (Result<Void, Error>) -> Void,
                         completionCMP: @escaping (Result<Void, Error>) -> Void) {
